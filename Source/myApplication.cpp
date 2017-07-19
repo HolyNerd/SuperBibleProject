@@ -1,4 +1,5 @@
 #include <myApplication.h>
+#include <iostream>
 
 void MyApplication::startup() {
 	renderingProgram = compileShaders();
